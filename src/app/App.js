@@ -1,13 +1,14 @@
 import React from 'react';
-import Counter from '../components/Counter';
 import './App.css';
+
+import CounterContainer from "../components/containers/CounterContainer";
 
 function App() 
 {
     return (
         <div className="App">
             <header className="App-header">
-                <Counter />
+                <CounterContainer />
             </header>
         </div>
     );
