@@ -20,13 +20,13 @@ class CounterContainer extends Component
 }
 
 // Map state to props;
-const mapState = (state) =>
+function mapState(state)
 {
     return { counter: state.counter };
 }
 
 // Map dispatch to props
-const mapDispatch = (dispatch) =>
+function mapDispatch(dispatch)
 {
     return { 
         onIncrement: (amount) => dispatch(increment(amount)),
