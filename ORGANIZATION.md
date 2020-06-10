@@ -4,17 +4,24 @@
 ```
 node_modules/
 src/
-    app/
-        App.js
-    components/
-        containers/
-        views/
-    reducers/
+    state/
+        example/
+            action_types.js
+            actions.js
+            index.js
+            reducers.js
+        shared/
+            store/
+                store.js
+        actions.js
         index.js
-    store/
-        utilities/
-        store.js
-    thunks/
+        reducers.js
+    view/
+        App/
+            App.js
+        Example/
+            ExampleComponent.jsx
+            ExampleContainer.jsx
     index.js
 package.json
 ```

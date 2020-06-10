@@ -1,6 +1,6 @@
 import React from "react";
 
-const CounterView = (props) =>
+const CounterComponent = (props) =>
 {
     return (
         <div>
@@ -14,4 +14,4 @@ const CounterView = (props) =>
     );
 };
 
-export default CounterView;
+export default CounterComponent;

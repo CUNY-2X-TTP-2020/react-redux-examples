@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import CounterContainer from "../components/containers/CounterContainer";
+import CounterContainer from "../Counter/CounterContainer";
 
 function App() 
 {
