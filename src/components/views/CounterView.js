@@ -6,8 +6,10 @@ const CounterView = (props) =>
         <div>
             Counter: {props.counter}
             <br/>
-            <button onClick={props.onIncrement}>+</button>
-            <button onClick={props.onDecrement}>-</button>
+            <button onClick={() => props.onIncrement()}>+</button>
+            <button onClick={() => props.onIncrement(5)}>+ 5</button>
+            <button onClick={() => props.onDecrement()}>-</button>
+            <button onClick={() => props.onDecrement(5)}>- 5</button>
         </div>
     );
 };
