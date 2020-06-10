@@ -3,12 +3,12 @@ const INCREMENT = "INCREMENT";
 const DECREMENT = "DECREMENT";
 
 // ACTION CREATORS
-export const increment = (amount = 1) =>
+export function increment(amount = 1)
 {
     return { type: INCREMENT, amount };
 };
 
-export const decrement = (amount = 1) =>
+export function decrement(amount = 1)
 {
     return { type: DECREMENT, amount };
 };
