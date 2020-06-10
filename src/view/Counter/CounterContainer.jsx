@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 
-import { increment, decrement } from "../../reducers";
-import CounterView from "../views/CounterView";
+import { increment, decrement } from "../../state";
+import CounterComponent from "./CounterComponent";
 
 // Smart Container
 class CounterContainer extends Component
@@ -10,7 +10,7 @@ class CounterContainer extends Component
     render()
     {
         return (
-            <CounterView 
+            <CounterComponent 
                 counter={this.props.counter}
                 onIncrement={this.props.onIncrement}
                 onDecrement={this.props.onDecrement}
