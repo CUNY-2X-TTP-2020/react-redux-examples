@@ -4,21 +4,17 @@
 ```
 node_modules/
 src/
-    actions/
-    assets/
-        css/
-        fonts/
+    app/
+        App.js
     components/
         containers/
         views/
-        App.js
-    helpers/
     reducers/
-        reducers.js
+        index.js
+    store/
+        utilities/
+        store.js
     thunks/
-    store.js
-    config.js
-    routes.js
     index.js
 package.json
 ```
